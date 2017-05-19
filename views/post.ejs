@@ -1,0 +1,12 @@
+<% include header %>
+
+<h1><a href="/"><< back to</a> kristo<strong>.</strong>f<strong>m</strong></h1>
+<h3>Personal site of <a href="/about">Kristof Michiels</a></h3>
+
+<h3>posted <%- post.date %> in <a href="#"><%- post.category %></a></h3>
+<h2><span><%- post.title %></span> :</h2>
+<article>
+  <%- post.body %>
+</article>
+
+<% include footer %>

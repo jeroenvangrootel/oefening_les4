@@ -1,0 +1,17 @@
+{
+  "name": "kristofm",
+  "version": "1.0.0",
+  "description": "Personal web page of Kristof Michiels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristof Michiels",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "instagram-posts": "^1.0.0",
+    "request-json": "^0.6.2"
+  }
+}

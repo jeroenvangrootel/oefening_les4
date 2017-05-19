@@ -1,0 +1,58 @@
+body {
+	
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+h1 {margin-top: 200px;
+	font-size:2vw;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	font-style: italic;
+}
+p {
+	font-size:1vw;
+	text-align: center;
+}
+
+header { 
+	width:75%;
+	margin:2.5%  auto ;
+	padding: 0% 12.5% 2% 12.5%;	
+}
+
+.logo {width:10%;}
+
+nav {
+	float:right;
+margin-top: 8.8%;
+	width: 25%;
+}
+
+nav ul li {display:inline-block;
+margin-right: 10%;}
+
+nav ul li a {
+	text-transform: uppercase;
+	color: mediumslateblue;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+nav ul li a:hover {
+	color: black;
+}
+
+.content {
+	width:60%;
+	margin: auto;
+}
+
+footer {
+	width: 100%;
+	border-top: 2px solid mediumslateblue;
+	position: fixed;
+	height:4vh;
+	text-align: center;
+	padding-top: 2vh;
+	bottom: 0;
+}

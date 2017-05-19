@@ -1,0 +1,27 @@
+<% include header %>
+
+
+	<div class="top">
+	
+		<p><a href="/" class="back button">Go back</a></p>
+		<h1>Click the button bellow to <br>view Surf Sumo's Instagram feed.</h1>
+		<p><a href="#instagram" class="button">Surf Sumo's Instagram</a></p>
+	</div>
+
+
+<section class="instagram" id="instagram">
+  <% afbeeldingen.forEach(function(afbeelding){ %>
+        <figure>
+         
+    
+      <a href="https://www.instagram.com/p/<%- afbeelding.id %>/?taken-by=surfsumo" target="_blank"><figcaption>
+          <% if (afbeelding.text) { %>
+            <%- afbeelding.text %>
+            <%} else {%>Click to see this picture<%} %>
+      </figcaption><img src="<%- afbeelding.media %>" alt="alt text" ></a>
+      
+    </figure>
+  <% }); %>
+</section>
+
+<% include footer %>
